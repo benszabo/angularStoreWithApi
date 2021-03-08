@@ -1,0 +1,62 @@
+{
+  "name": "angular-simple-shopping-cart",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 7.0.0",
+    "npm": ">= 3.10.8"
+  },
+  "scripts": {
+    "build": "ng build --prod --aot && gulp",
+    "start": "ng serve --proxy-config proxy.conf.json",
+    "start:https": "ng serve --ssl true --ssl-key ./dev_cert.key --ssl-cert ./dev_cert.crt",
+    "test": "ng test --watch false",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^6.1.10",
+    "@angular/common": "^6.1.10",
+    "@angular/compiler": "^6.1.10",
+    "@angular/core": "^6.1.10",
+    "@angular/forms": "^6.1.10",
+    "@angular/http": "^6.1.10",
+    "@angular/platform-browser": "^6.1.10",
+    "@angular/platform-browser-dynamic": "^6.1.10",
+    "@angular/platform-server": "^6.1.10",
+    "@angular/router": "^6.1.10",
+    "core-js": "^2.4.1",
+    "intl": "^1.2.5",
+    "ngx-paypal": "^5.0.0",
+    "ngx-swiper-wrapper": "^10.0.0",
+    "node-sass": "^4.5.2",
+    "rxjs": "^6.6.6",
+    "rxjs-compat": "^6.0.0-rc.0",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.8.0",
+    "@angular/cli": "^6.2.9",
+    "@angular/compiler-cli": "6.1.10",
+    "@types/jasmine": "2.5.38",
+    "@types/node": "~6.0.60",
+    "@types/sinon": "^2.2.1",
+    "codelyzer": "~2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-replace": "^0.5.4",
+    "jasmine-core": "~2.5.2",
+    "jasmine-spec-reporter": "~3.2.0",
+    "karma": "~1.4.1",
+    "karma-chrome-launcher": "~2.0.0",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^0.2.0",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "~5.1.0",
+    "sinon": "^2.2.0",
+    "ts-node": "~2.0.0",
+    "tslint": "~4.5.0",
+    "typescript": "2.9.2"
+  }
+}
